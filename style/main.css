@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@import url(footer.css);
+@import url(header.css);
+@import url(reset.css);
+
+.TopAd {width : 100%;}
+.TopAd .slidewrap {width : 100%;}
+.TopAd .slidewrap img {width : 100%;}
+
+.slidewrap .slide {position : relative; width : 100%; height : 10%; }
+/*.slidewrap .slide li {position : absolute; }*/
+.slidewrap .slide li a {}
+.slidewrap .slide li a img {width : 100%;}
+
+
+.slidebtwrap { bottom : 20px; left : 50%; margin-left : -41px }
+.slidebtwrap ul {width : 82px }
+.slidebtwrap ul li{width : 25px; float : left; height : 7px; background-color: #fff ; margin: 0 8px}
+.slidebtwrap ul li.on {background-color :#f25395; }
+
+
+
+/*광고*/
+.secondAd {}
+.secondAd li{height : 100%;}
+.secondAd li a img{width : 100%;}
+.secondAd li:last-child{margin-top:-5px}
+
+
+/*BEST, MD추천*/
+.Best h2,
+.MdRecom h2 {color :#353535; font-size : 25px; font-weight: 600; height : 25px; margin:30px 0 30px 4%}
+
+.bestitemwrap {}
+.bestitemwrap .bextitem{}
+.bestitemwrap .bextitem li { float : left; width : 47vw; text-align: center; margin-left : 2%; height : 60%; margin-bottom : 20px}
+.bestitemwrap .bextitem li a { color :#353535; font-size : 12px; font-weight: 500}
+.bestitemwrap .bextitem li a img {width : 47vw}
+.bestitemwrap .bextitem li a span {}
+.bestitemwrap .bextitem li a .gram {font-size : 10px; color :#838383; margin-left : 5px}
+.bestitemwrap .bextitem li a .price {display : block; font-size : 14px; color :#565050; font-weight: 300}
+.bestitemwrap .bextitem li a .soldout {color :#fff; background-color:red; border-radius : 50px; text-align: center; width : 40px; display : inline-block; font-size : 12px; margin-left : 10px}
+
+
+
+.mditemwrap {}
+.mditemwrap .mditem{}
+.mditemwrap .mditem li { float : left; width : 47vw; text-align: center; margin-left : 2%; height : 60%; margin-bottom : 20px}
+.mditemwrap .mditem li a { color :#353535; font-size : 12px; font-weight: 500}
+.mditemwrap .mditem li a img {width : 47vw}
+.mditemwrap .mditem li a span {}
+.mditemwrap .mditem li a .gram {font-size : 10px; color :#838383; margin-left : 5px}
+.mditemwrap .mditem li a .price {display : block; font-size : 14px; color :#565050; font-weight: 300}
+
+
+.seemore {top : 0; right : 4%; width : 70px; height : 35px}
+.seemore a {line-height:35px; display : block;}
+.seemore a span{line-height:35px;display : inline-block; margin-right : 5px}
+.seemore a p {width : 23px; height : 23px; border-top : 2px solid #f25395; border-right : 2px solid #f25395; transform : rotate(45deg) translateY(9px); display : inline-block}
+
+
+/*광고*/
+.thirdAd {}
+.thirdAd li{height : 100%;}
+.thirdAd li a img {width : 100%;}
+.thirdAd li:last-child{margin-top:-5px}
+
+
+/*선물추천*/
+
+.giftRecom{padding-top : 25px; background-color :#fff6fb; padding-bottom:25px;margin-top : -5px}
+.giftRecom .recTit{color :#f25395; width : 65.0666%;margin : 0 auto; border : 2px solid #f25395; height : 60px; }
+.giftRecom .recTit h2{font-size : 20px; line-height: 56px; text-align: center;}
+
+.giftRecom .giftconts{}
+.giftRecom .gift:after{content:''; display : block; clear:both;}
+.giftconts .gift {border : 1px solid #f4a1c3; width : 85%; margin:0 auto; background-color: #fff;margin-top:18px;  padding : 2%; }
+.giftconts .gift { }
+
+
+
+.giftconts .gift a img { width : 100% }
+
+

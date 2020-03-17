@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+footer {}
+
+.user{ background-color :#f4a1c3; height : 39px; width : 100%;}
+.user_in{}
+.user_in li{ float: left; width : 25%; text-align: center;}
+.user_in li:nth-of-type(2){font-weight : 600}
+.user_in li a{color :#fff; font-size : 11px; line-height : 39px}
+
+
+.company_info {background-color: #402f29; height : 160px; width : 100%;}
+.company_info .address {color :#fff; text-align: center;padding-top : 29px;font-weight : 300; font-size : 8px}
+.company_info .address span{ display : inline-block; margin-left : 10px;padding-left : 10px; background: url(../images/dot.jpg) repeat-y 0 12px; height : 13px; }
+.company_info .address p{}
+.company_info .address p.copy{color : #c5bbbb; font-size : 8px; margin-top : 10px}
